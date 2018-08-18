@@ -1,5 +1,19 @@
 
-h1 {
+.main-section {
+    max-width: 960px;
+}
 
-    font-family: 'Open Sans', sans-serif;
+navbar {
+    display: inline-block;
+    float: right;
+
+}
+
+.col {
+    width: 50%;
+
+}
+
+.col bio {
+    text-align: center;
 }
