@@ -13,17 +13,14 @@ navbar {
     border-block-end: 2px;
     
 }
- .container-fluid {
-     padding-top: 60px;
- }
+
+ nav {
+    
+}
 
 .col {
     width: 50%;
 
-}
-
-.col.bio {
-    margin-top:7%;
 }
 
 .col.bio > p {
@@ -52,8 +49,24 @@ img.rounded-circle {
     background-origin: border-box;
 }
 
+
+h1 {
+    text-align: center;
+    margin-top:70px;
+}
+
+div.container-fluid {
+    margin-top: 0px;
+}
+
+div.container {
+    max-width: 450px;
+}
+
 .jumbotron {
-    background: rgba(66, 66, 66, 0.1);
-    padding-bottom: 20px;
-    padding-top: 25px;
+    text-align: center;
+}
+
+h1.jumbotron {
+    background: rgba(66, 66, 66, 0.2);
 }

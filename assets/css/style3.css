@@ -17,13 +17,13 @@ navbar {
      padding-top: 60px;
  }
 
+ nav {
+    
+}
+
 .col {
     width: 50%;
 
-}
-
-.col.bio {
-    margin-top:7%;
 }
 
 .col.bio > p {
@@ -53,7 +53,10 @@ img.rounded-circle {
 }
 
 .jumbotron {
-    background: rgba(66, 66, 66, 0.1);
-    padding-bottom: 20px;
-    padding-top: 25px;
+    margin-top: 15%;
+    text-align: center;
+}
+
+div.jumbotron {
+    background: rgba(66, 66, 66, 0.3)
 }
