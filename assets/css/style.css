@@ -1,64 +1,70 @@
+.col{ 
+    border: 1px salmon;
+    border-radius: 3px;
+    border-style: solid;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
 
-.main-section {
-    max-width: 960px;
+
 }
 
-header > .container{
- margin-right: unset;
-}
 
 
 navbar {
-    display: inline-block;
-    border-block-end: 2px;
-    
+    width: 100%;
+    background: #37375c
+    height: 65px;
+
 }
- .container-fluid {
-     padding-top: 60px;
- }
 
-.col {
-    width: 50%;
+nav.li {
+    display: inline-block;
+    margin-right: -4px;
+    width: 25%
+    height: 100%
 
+
+}
+
+nav.li.a {
+    color: white;
+    text-align: center
+    text-decoration: none;
+   display: block;
+   width: 100%;
+   height: 100%;
+    color: #000;
+    font-size: 80%;
+    padding: 0 3px;
+
+}
+
+
+div.nameface {
+    padding: 2%
 }
 
 .col.bio {
-    margin-top:7%;
-}
-
-.col.bio > p {
-
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+    line-height: 150%;
     text-align: center;
-    display: inline-block;
-
+    padding: 2%;
 }
 
-h1,h3 {
-    font-family: 'Boogaloo', cursive;
-    font-size: 290%;
-}
-
-body {
-    background-image: url('../Basic-Portfolio/assets/images/hypnotize.png');
+.col.name {
+    text-align: center;
 }
 
 footer {
-        position:fixed;
-        bottom:0;
-        width:100%;
-        height:25px;  
-        background:whitesmoke;
-        font-size: small;
-
+    position:absolute;
+   bottom:0;
+   width: 95%;
+   height:30px;   /* Height of the footer */
+   background: #463f349df8
 }
-
-img.rounded-circle {
-    position: center;
-    background-origin: border-box;
-}
-
-.jumbotron {
-    background: rgba(66, 66, 66, 0.1);
-    padding-bottom: 20px;
-    padding-top: 25px;
+footer > p {
+   text-align: center;
 }
