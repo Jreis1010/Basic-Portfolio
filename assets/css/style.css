@@ -23,21 +23,14 @@ nav.li {
     display: inline-block;
     margin-right: -4px;
     width: 25%
-    height: 100%
+    height: 100%;
 
 
 }
 
 nav.li.a {
     color: white;
-    text-align: center
-    text-decoration: none;
-   display: block;
-   width: 100%;
-   height: 100%;
-    color: #000;
-    font-size: 80%;
-    padding: 0 3px;
+    text-align: center;
 
 }
 
@@ -60,11 +53,11 @@ div.nameface {
 
 footer {
     position:absolute;
-   bottom:0;
-   width: 95%;
-   height:30px;   /* Height of the footer */
-   background: #463f349df8
+    bottom:0;
+    width: 95%;
+    height:30px;   /* Height of the footer */
+    background: #463f349df8
 }
 footer > p {
-   text-align: center;
+    text-align: center;
 }
